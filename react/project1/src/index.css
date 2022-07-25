@@ -1,0 +1,43 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  /* color: rgb(4, 4, 4); */
+  
+}
+.app{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 400px;
+  height: 200px;
+  border: 2px solid;
+  background-color: #ffff;
+}
+
+
+.card__btn{
+ color: white;
+ border: 0;
+ width: 50px;
+ aspect-ratio: 1; 
+ font-size: 2rem;
+ border-radius: 50%;
+ cursor: pointer;
+ box-shadow: 0 0 10px  #000;
+ transition: box-shadow 200ms ease;
+}
+
+.card__btn:hover{
+  
+ box-shadow: 0 0 5px  #000;
+ transition: box-shadow 200ms ease;
+}
+
+

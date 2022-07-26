@@ -1,4 +1,6 @@
 import React from 'react'
+import Button from './Button'
+
 
 const QuoteBox = ({ randomAuthor, randomColors, changeState }) => {
   
@@ -12,10 +14,13 @@ const QuoteBox = ({ randomAuthor, randomColors, changeState }) => {
 
   return (
     <article className='card' style={objectStyle}>
-        <i className="fa-solid fa-quote-left"></i>
-      <p>{`${randomAuthor.quote}`}</p>
-      <h2>{`${randomAuthor.author}`}</h2>
-      <button className='card__btn' onClick={changeState} style={objectBgStyle}>&#62;</button>
+      <header className='card__header'>
+    
+      
+      <p className='card__prhase'> <span className='card__icon'><i className="fa-solid fa-quote-left quote"></i></span> {`${randomAuthor.quote}`}</p>
+      </header>
+
+      <Button randomAuthor={randomAuthor} changeState={changeState} objectBgStyle={objectBgStyle} />
     </article>
   )
 }

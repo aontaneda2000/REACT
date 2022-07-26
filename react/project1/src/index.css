@@ -2,10 +2,15 @@
   font-size: 16px;
 }
 
+
 body {
   margin: 0;
   /* color: rgb(4, 4, 4); */
   
+}
+
+h2{
+  margin:  .5rem 0;
 }
 .app{
   height: 100vh;
@@ -16,18 +21,20 @@ body {
 
 .card{
   width: 400px;
-  height: 200px;
-  border: 2px solid;
+  height: 150px;
   background-color: #ffff;
+  padding: 1rem;
+  box-shadow: 0 0 10px  #000;
+ transition: box-shadow 200ms ease;
 }
 
 
 .card__btn{
  color: white;
  border: 0;
- width: 50px;
+ width: 45px;
  aspect-ratio: 1; 
- font-size: 2rem;
+ font-size: 1.5rem;
  border-radius: 50%;
  cursor: pointer;
  box-shadow: 0 0 10px  #000;
@@ -40,4 +47,20 @@ body {
  transition: box-shadow 200ms ease;
 }
 
+.card__container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size:12px;
+}
 
+.card__header{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+.card__title{
+  font-style: italic;
+  font-size: 14px;
+}

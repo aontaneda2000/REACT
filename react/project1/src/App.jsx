@@ -34,8 +34,8 @@ const getRandomCite = (arr) => {
     authorRandom = getRandomCite(author)
     colorRandom = getRandomCite(colors)
 
-    setRandomAuthor(author)
-    setRandomColors(colors)
+    setRandomAuthor(authorRandom)
+    setRandomColors(colorRandom)
   }
 
   return (

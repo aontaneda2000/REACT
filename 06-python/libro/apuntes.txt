@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+Como se ejecutan las operaciones matematicas en pytho?
+En base PRIMERO PARENTESIS, MULTPLICACION , DIVISION Y ADICIN Y SUSTRACCION
+
+Division de enteros: Devuelve un entero y no decimales.
+
+operador + solo concatena cadenas de texto y no numeros.
+
+Comentarios
+
+
+
+
+
+1/12.. 2/12
+
+12-Clases y objetos
+Tipos compuestos definidos por el usuario
+
+
+
+
+
+

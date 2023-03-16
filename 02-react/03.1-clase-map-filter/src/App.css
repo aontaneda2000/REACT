@@ -1,0 +1,30 @@
+img {
+  width: 200px;
+}
+
+.general-title {
+  text-align: center;
+}
+.App {
+}
+
+.card {
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: max-content;
+  overflow: hidden;
+}
+.card-container {
+  display: flex;
+  /* genera espacio vertical y horizontal */
+  gap: 20px;
+  /* genera un salto de linea si no cabe el contenido */
+  flex-wrap: wrap;
+  /* efecto para que se alinen los elementos */
+  justify-content: center;
+}
+
+.card__title {
+  color: white;
+  text-align: center;
+}

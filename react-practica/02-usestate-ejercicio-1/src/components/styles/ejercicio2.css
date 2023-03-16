@@ -1,0 +1,15 @@
+.on {
+  background-color: rgb(246, 255, 0);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.off {
+  background-color: rgb(0, 4, 4);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid;
+}

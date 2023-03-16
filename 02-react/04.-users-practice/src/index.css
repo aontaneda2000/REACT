@@ -1,0 +1,16 @@
+.card__user {
+  border: 2px solid #ccca;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card__btn {
+  border: none;
+  margin-right: 1rem;
+}
+
+.form {
+  border: 2px solid #ccca;
+  margin-bottom: 1rem;
+}

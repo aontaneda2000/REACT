@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Enlaces</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style> -->
+</head>
+
+<body>
+  <h1>Enlaces</h1>
+  <p>Los enlaces son elementos que nos permiten navegar entre páginas web.</p>
+
+  <h2>Enlaces internos</h2>
+  <p>Enlaces a páginas del mismo sitio web.</p>
+  <ul>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="services.html">Services</a></li>
+  </ul>
+
+  <!-- <img src="assets/img/favicon.ico" alt="favicon"> -->
+  <!-- 
+  <div class="image-bg"></div> -->
+
+  <!-- http://127.0.0.1:5500/semana3/html/06-enlaces/index.html -->
+
+  <p>Enlaces a secciones de la misma página o secciones de páginas del mismo sitio.</p>
+
+  <ul>
+    <li><a href="#ancla">Ir a la sección con el ancla</a></li>
+    <li><a href="about.html#contact">Ir a contacto</a></li>
+  </ul>
+
+  <h2>Sección sin aclaje</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim adipisci ut doloribus quaerat quis aliquam accusantium
+    numquam quo dolor iure excepturi ab fugiat, quidem unde est eveniet nulla ea temporibus.
+  </p>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ipsa eveniet voluptas hic consequuntur eos earum
+    iusto doloremque repellat aspernatur, dolorem ipsam. Quod nihil, ipsam doloremque dolorem non rerum molestias.
+  </p>
+
+  <h2>Sección sin aclaje</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim adipisci ut doloribus quaerat quis aliquam accusantium
+    numquam quo dolor iure excepturi ab fugiat, quidem unde est eveniet nulla ea temporibus.
+  </p>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ipsa eveniet voluptas hic consequuntur eos earum
+    iusto doloremque repellat aspernatur, dolorem ipsam. Quod nihil, ipsam doloremque dolorem non rerum molestias.
+  </p>
+
+  <h2>Sección sin aclaje</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim adipisci ut doloribus quaerat quis aliquam accusantium
+    numquam quo dolor iure excepturi ab fugiat, quidem unde est eveniet nulla ea temporibus.
+  </p>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ipsa eveniet voluptas hic consequuntur eos earum
+    iusto doloremque repellat aspernatur, dolorem ipsam. Quod nihil, ipsam doloremque dolorem non rerum molestias.
+  </p>
+
+  <h2 id="ancla">Sección con el ancla</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim adipisci ut doloribus quaerat quis aliquam accusantium
+    numquam quo dolor iure excepturi ab fugiat, quidem unde est eveniet nulla ea temporibus.
+  </p>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ipsa eveniet voluptas hic consequuntur eos earum
+    iusto doloremque repellat aspernatur, dolorem ipsam. Quod nihil, ipsam doloremque dolorem non rerum molestias.
+  </p>
+
+  <h2>Elances Externos</h2>
+  <p>Enlaces a páginas de otros sitios web.</p>
+  <ul>
+    <li><a href="https://google.com" target="_blank" rel="noopener noreferrer">Ir a google</a></li>
+    <li><a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener noreferrer">MDN</a></li>
+  </ul>
+
+  <h3>Atributos recomendados:</h3>
+  <ul>
+    <li>
+      <code>target="_blank"</code> para abrir el enlace en una nueva pestaña. El valor por defecto es <code>_self</code>
+    </li>
+    <li>
+      <code>rel</code> para indicar la relación entre el documento actual y el documento al que se enlaza.
+      <ul>
+        <li><code>nofollow</code> puedes considerarlo como un valor que se utiliza cuando quieres enlazar a otra página
+          pero sin "avalarlo".</li>
+        <li><code>noopener</code> evita que la página abierta pueda acceder a la página que la abrió usando JavaScript y
+          asi evitar ataques de phishing.</li>
+        <li><code>noreferrer</code> evita que la página abierta pueda acceder a la página que la abrió y tampooco dara
+          información sobre quien hizo referencia a ese enlace.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Otros protocolos</h2>
+  <p>Enlaces a otros protocolos como teléfono, correo electrónico, etc.</p>
+  <ul>
+    <li><a href="tel:+1234567890">Llamar al teléfono</a></li>
+    <li><a href="mailto:miguelin@correo.com">Enviar correo electrónico</a></li>
+    <li><a href="sms:+1234567890">Enviar mensaje de texto</a></li>
+    <li><a href="whatsapp://send?phone=1234567890">Enviar mensaje de WhatsApp</a></li>
+    <li><a href="https://wa.me/1234567890?text=mensaje">Enviar mensaje de WhatsApp</a></li>
+  </ul>
+
+  <h2>Enlaces de descarga</h2>
+  <p>Enlaces a archivos para descargar.</p>
+  <ul>
+    <li><a href="cv.pdf" download="mihojadevida.pdf">Descargar mi cv</a></li>
+    <li><a href="cv.pdf" download>Descargar mi cv</a></li>
+  </ul>
+
+</body>
+
+</html>

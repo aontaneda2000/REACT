@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Elementos</title>
+</head>
+
+<body>
+  <h1>Elementos</h1>
+
+  <h2>Elementos anidados</h2>
+
+  <h2>Elementos de bloque y en línea</h2>
+
+  <h3>Elementos de Bloque</h3>
+  <p>Los elementos de bloque forman un bloque visible en la página. Aparecerán en una línea nueva después de cualquier
+    contenido anterior. Cualquier contenido que vaya después también aparecerá en una línea nueva.</p>
+
+  <!-- <div>
+    <p>Esto es un párrafo y está dentro de un <b>div</b></p>
+    <p>Uno
+    <p>Dos</p>
+    </p>
+  </div> -->
+
+  <div>Uno</div>
+  <div>Dos</div>
+
+  <h3>Elementos en Línea</h3>
+  <p>Los elementos en línea están contenidos dentro de elementos de bloque y delimitan solo pequeñas partes del
+    contenido del documento. Un elemento en línea no hará que aparezca una nueva línea en el documento.</p>
+
+  <span>Uno</span>
+  <span>Dos</span>
+
+  <h2>Etiquetas para fragmentos de texto</h2>
+  <p>Esto es un <b>fragmento de texto</b></p>
+
+  <h3>Etiquetas de presentación</h3>
+  <p>Etiquetas HTML simples que solo afectan a la presentación:</p>
+  <p>Colocar el siguiente <b>fragmento de texto en negrita</b></p>
+  <p>Colocar el siguiente <i>fragmento de texto en cursiva</i></p>
+  <p>Colocar el siguiente <u>fragmento de texto subrayado</u></p>
+  <p>Colocar el siguiente <s>fragmento de texto tachado</s></p>
+  <p>Colocar el siguiente <mark>fragmento de texto resaltado</mark></p>
+  <p>Colocar el siguiente <small>fragmento de texto pequeño</small></p>
+
+  <h3>Saltos de línea</h3>
+  <p>Es una etiqueta especial de HTML para comenzar en una línea nueva:</p>
+  <p>Esto es un fragmento de texto.<br>Esto es otro fragmento de texto.</p>
+
+  <h3>Etiquetas semánticos</h3>
+  <p>Etiquetas HTML que le dan significado al texto:</p>
+
+  <p><strong>Importante</strong></p>
+  <p><em>Énfasis</em></p>
+  <p><cite>Referencia</cite></p>
+
+  <h3>Modificación de Significado</h3>
+  <p>Etiquetas HTML que modifican el significado del texto:</p>
+  <p>Superíndice: 24<sup>2</sup></p>
+  <p>Subíndice: H<sub>2</sub>0</p>
+  <p>Definición: <dfn title="World Wide Web">www</dfn></p>
+  <p>Abreviación: <abbr title="Mozila Developer Network">MDN</abbr></p>
+  <p>Cita: <q cite="http://pormiguelin.com">El que no se equivoca, no es programador</q></p>
+
+  <h3>Aspectos Informáticos</h3>
+  <p>Estas Etiquetas HTML estan ligeramente orientadas a aspectos informáticos como combinaciones de teclado del usuario
+    o para representar variables matemáticas o informáticas:</p>
+
+  <p>Tecla de acceso rápido: <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Supr</kbd></p>
+  <p>Variable: Una expresión <var>x</var> = 0</p>
+  <p>Muestra información de un programa informático: <samp>Everything up-to-date</samp></p>
+  <p>Comando: <code>git commit -m "first commit"</code></p>
+  <p>
+    <time datetime="2003-01-04">4 de enero de 2003</time>
+    <data value="ESDLA3">El retrono del rey</data>
+  </p>
+
+  <h3>Selección de Texto</h3>
+  <p>Etiqueta HTML que permite seleccionar texto:</p>
+  <p>Seleccionar el siguiente <span>fragmento de texto</span></p>
+
+  <h2>Agrupacion de elementos:</h2>
+  <p>Las siguientes etiquetas se utilizan para agrupar elementos:</p>
+
+  <h3>Etiquetas de Agrupación</h3>
+  <p>La etiqueta <b>p</b> define un parráfo pero puede contener otros <i>elementos en línea</i></p>
+
+  <p>La etiqueta pre</p>
+  <pre>
+    - TEXTO DE PRUEBA
+        - OTRO TEXTO DE PRUEBA
+    ///////
+  </pre>
+
+  <p>También es muy habitual utilizarlo junto a la etiqueta code para definir un bloque de código preformateado</p>
+
+  <pre>
+    <code>
+      function mensaje(msg) {
+        console.log(msg)
+      }
+    </code>
+  </pre>
+
+  <!-- <p>Un documetno HTML tiene dos etiquetas principales: <head> y <body>.
+  </p> -->
+
+  <p>Caracteres especiales en HTML</p>
+  <ul>
+    <li>El carater &amp;lt; representa el símbolo menor que <code>&lt;</code></li>
+    <li>El carater &amp;amp; representa el símbolo ampersand <code>&amp;</code></li>
+    <li>El carater &amp;gt; representa el símbolo mayor que <code>&gt;</code></li>
+    <li>El carater &amp;quot; representa el símbolo comilla doble <code>&quot;</code></li>
+    <li>El carater &amp;apos; representa el símbolo comilla simple <code>&apos;</code></li>
+    <li>El carater &amp;nbsp; representa el símbolo espacio en blanco <code>&nbsp;</code></li>
+    <li>El carater &amp;copy; representa el símbolo de derechos de autor <code>&copy;</code></li>
+  </ul>
+
+  <p>Un documetno HTML tiene dos etiquetas principales: <code>&lt;head&gt;</code> y <code>&lt;body&gt;</code>.
+  </p>
+
+  <p>La etiqueta blockquote define un bloque de texto que se cita de otra fuente</p>
+  <blockquote>
+    <p>El que no se equivoca, no es programador</p>
+    - <cite>Por Miguelin</cite>
+  </blockquote>
+
+  <p>La etiqueta hr define una línea horizontal que indica un cambio de tema</p>
+  <hr>
+
+  <p>La etiqueta div define un contenedor genérico de contenido sin significado</p>
+  <div>
+    <p>Contenido del div</p>
+  </div>
+
+</body>
+
+
+</html>

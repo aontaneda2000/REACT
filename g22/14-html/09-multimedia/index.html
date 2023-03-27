@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Multimedia HTML5</title>
+</head>
+
+<body>
+  <header>
+    <h1>Multimedia</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Imágenes</h2>
+
+      <!-- Source -->
+      <img src="imagen.png" alt="Imagen del logo de HTML5" width="200">
+      <img src="https://source.unsplash.com/random/200x400" alt="Imagen Random">
+    </section>
+
+    <section>
+      <h2>Video</h2>
+
+      <video width="250" poster="poster.webp" controls>
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        <source src="video.ogv" type="video/ogv">
+        <p>Su navegadro no soprta el formato</p>
+      </video>
+
+      <ul>
+        <li>controls</li>
+        <li>autoplay</li>
+        <li>loop</li>
+        <li>muted</li>
+        <li>poster</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Audio</h2>
+
+      <audio muted controls width="200">
+        <source src="audio.mp3" type="audio/mp3">
+        <source src="audio.ogg" type="audio/ogg">
+        <source src="audio.ogv" type="audio/ogv">
+        <p>Su navegadro no soprta el formato</p>
+      </audio>
+
+      <ul>
+        <li>controls</li>
+        <li>autoplay</li>
+        <li>loop</li>
+        <li>muted</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Iframe</h2>
+
+      <h3>Video de Youtube</h3>
+      <iframe width="250" src="https://www.youtube.com/embed/U7rae4EjNxw" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+      <h3>SoundCloud</h3>
+      <iframe width="250" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144848972&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+      <h3>Spotify</h3>
+      <iframe src="https://open.spotify.com/embed/track/6rqhFgbbKwnb9MLmUQDhG6" width="250" frameborder="0"
+        allowtransparency="true" allow="encrypted-media"></iframe>
+
+      <h3>Google Maps</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16288612.955754928!2d-74.33900609999999!3d4.645345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sColombia!5e0!3m2!1ses-419!2sar!4v1670639024156!5m2!1ses-419!2sar"
+        width="650" height="650" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <a href="https://bing.com" target="marco">Abrir buscador</a>
+      <iframe name="marco" src="otra-pagina.html" frameborder="0"></iframe>
+    </section>
+  </main>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>

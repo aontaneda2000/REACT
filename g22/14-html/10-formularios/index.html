@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formularios</title>
+</head>
+
+<body>
+  <header>
+    <h1>Formularios en HTML</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Formulario simple</h2>
+
+      <form action="https://httpbin.org/get" method="get">
+        <div>
+          <!-- <label for="name">Nombre:</label> <br> -->
+          <input id="name" name="nombre" type="text" placeholder="Escribe tu nombre">
+        </div>
+
+        <br>
+
+        <div>
+          <!-- <label for="lastname">Apellido:</label> <br> -->
+          <input id="lastname" name="apellido" type="text" placeholder="Escribe tu apellido">
+        </div>
+
+        <br>
+
+        <div>
+          <!-- <label for="date">Fecha de nacimiento:</label> <br> -->
+          <input id="date" name="fecha_nacimiento" type="date">
+        </div>
+
+        <br>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+
+    <section>
+      <h2>Login</h2>
+      <form action="https://httpbin.org/get" method="get">
+        <div>
+          <label for="email">Correo:</label> <br>
+          <input type="email" name="correo" id="email" required>
+        </div>
+
+        <br>
+        <div>
+          <label for="password">Contraseña:</label><br>
+          <input type="password" name="password" id="password" required>
+        </div>
+
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Agregando mas elementos de formulario</h2>
+
+      <form action="https://httpbin.org/get" method="get">
+        <h3>Opcion única</h3>
+        <div>
+          <label for="color">Color favorito</label> <br>
+          <input type="radio" name="color" id="color" value="Rojo"> Rojo
+          <input type="radio" name="color" id="color" value="Verde"> Verde
+          <input type="radio" name="color" id="color" value="Azul"> Azul
+        </div>
+
+        <br>
+
+        <div>
+          <select name="pais" id="pais">
+            <option value="argentina">argentina</option>
+            <option value="brasil">brasil</option>
+            <option value="chile">chile</option>
+            <option value="uruguay">uruguay</option>
+          </select>
+        </div>
+
+        <br>
+
+        <h3>Opciones múltiples</h3>
+        <div>
+          <label for="lang">Lenguajes de programación</label> <br>
+          <input type="checkbox" name="lang" id="lang" value="JavaScipt"> JavaScipt
+          <input type="checkbox" name="lang" id="lang" value="PHP"> PHP
+          <input type="checkbox" name="lang" id="lang" value="Python">Phyton
+        </div>
+
+        <br>
+        <div>
+          <select name="services" id="services" multiple>
+            <optgroup label="Frontend">
+              <option value="JavaScipt">JavaScipt</option>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+            </optgroup>
+            <optgroup label="Backend">
+              <option value="PHP">PHP</option>
+              <option value="Python">Python</option>
+              <option value="Node.js">Node.js</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <br>
+        <div>
+          <input type="text" name="country" placeholder="Selecciona tu país" list="latam">
+          <datalist id="latam">
+            <option value="México">
+            <option value="Colombia">
+            <option value="Perú">
+            <option value="Argentina">
+            <option value="Chile">
+            <option value="Ecuador">
+            <option value="Venezuela">
+            <option value="Bolivia">
+            <option value="Paraguay">
+            <option value="Uruguay">
+            <option value="Brasil">
+            <option value="Guatemala">
+            <option value="Honduras">
+            <option value="El Salvador">
+            <option value="Nicaragua">
+            <option value="Costa Rica">
+            <option value="Panamá">
+            <option value="República Dominicana">
+            <option value="Puerto Rico">
+          </datalist>
+
+          <br>
+          <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+
+        <br>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>

@@ -1,25 +1,29 @@
-# TARJETAS DE BASES DE DATOS (20 min)
+# Estudiar practicar logica JS, HTML, ingles
 
-# limpiar computadora
+# Clase de algoritmos academlo
 
-# APRENDER A DEBUGEAR EN VSCODE
+# hacer tarjetas de algoritmos
 
 <!--
 # CURSO DE EXCEL DE PILDORAS -->
 
-# Ver proxima clase de acamdelo
-
-# hacer tarjetas de esa clase
-
-# proyecto de github de jonmircha
-
-# practicar logica
-
 # Adicional:
 
-Lee
-Corre
+Leer
+Correr
 Dibuja
-Ingle
+Ingles
 Cortar pelo chiquiti
 Bañar perros y ropa
+
+# 5pm: repaso Fundamentos
+
+# 6pm: repaso replit logica
+
+# 7:20pm: algoritmos
+
+# 9pm: colas
+
+27 marzo
+
+# 6am colas dobles

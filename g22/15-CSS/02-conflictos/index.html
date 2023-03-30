@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Reglas conflictivas</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #ccc;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    /* Herencia */
+    .contendor-padre {
+      font-size: 20px;
+      border: 1px solid yellowgreen;
+      color: aqua;
+    }
+
+    .contendor-padre ul {
+      border: inherit;
+      font-size: initial;
+      color: white;
+      /* all: initial; */
+    }
+
+    /* El orden cascada */
+    .cyan {
+      color: cyan;
+    }
+
+    p.orange {
+      color: orange;
+    }
+
+    .greenyellow {
+      color: greenyellow;
+    }
+
+    /* Especificidad */
+    table,
+    tr,
+    th,
+    td,
+    caption {
+      border: 1px solid cyan;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+
+    /* Importancia */
+    .importante {
+      color: cyan !important;
+      font-size: 16px !important;
+    }
+
+    p#id.clase {
+      color: green;
+      font-size: 35px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Reglas conflictivas</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Reglas conflictivas</h2>
+      <p>Hay 3 reglas que tenemos que tener en cuenta a la hora de escribir CSS:</p>
+
+      <ul>
+        <li>Reglas de orden.</li>
+        <li>Reglas de especificidad.</li>
+        <li>Reglas de herencia.</li>
+      </ul>
+
+      <h3>Cascada</h3>
+      <p>La cascada en las hojas de estilo significa que el orden de las reglas importa en CSS: cuando dos reglas tienen
+        la misma especificidad, se aplica la que aparece en último lugar en el CSS.</p>
+
+      <h3>Especificidad</h3>
+      <p>Básicamente, la especificidad mide cuán específica es la selección de un selector.</p>
+
+      <h3>Herencia</h3>
+      <p>La herencia es el mecanismo por el cual los elementos hijos heredan algunos valores de las propiedades que se
+        han establecido para los elementos padre, pero otros no.</p>
+    </section>
+
+    <section>
+      <h2>La Herencia</h2>
+
+      <h3>3 propiedades para controlar la herencia</h3>
+      <ul>
+        <li>inherit: hereda el valor de la propiedad de su elemento padre.</li>
+        <li>initial: establece el valor de la propiedad a su valor inicial.</li>
+        <li>unset: establece el valor de la propiedad a su valor inicial, a menos que el elemento padre la haya
+          heredado, en cuyo caso se hereda el valor del elemento padre.</li>
+      </ul>
+
+      <div class="contendor-padre">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsum sit debitis deserunt sed, molestias
+          nulla, dolorum totam accusantium in animi excepturi dolore ea assumenda at necessitatibus, laboriosam
+          asperiores perferendis.
+        </p>
+
+        <ul>
+          <li>Elemento</li>
+          <li>Elemento</li>
+          <li>Elemento</li>
+        </ul>
+
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta doloremque laborum voluptatum consequuntur
+            quasi qui quidem enim accusantium amet laudantium, dolor facere quos esse alias eius quae ratione molestiae
+            est!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>La cascada</h2>
+
+      <h3>Hay que considerar tres factores:</h3>
+      <ul>
+        <li>Orden</li>
+        <li>Especificidad</li>
+        <li>Importancia</li>
+      </ul>
+
+      <h3>Orden</h3>
+      <p class="orange greenyellow cyan" style="color: cornflowerblue;">Este texto es de color ???</p>
+
+      <h3>Especificidad</h3>
+      <p>¿Cómo se calcula la especificidad?</p>
+
+      <table>
+        <tr>
+          <td>Selectores</td>
+          <td>millares</td>
+          <td>centenas</td>
+          <td>decenas</td>
+          <td>unidades</td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Tipo y pseudo-elementos</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Clases, atributos y pseudo-clases</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>ID</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Estilos inline</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </table>
+
+      <h3>Importancia</h3>
+      <p>La importancia se puede establecer de dos maneras:</p>
+      <ul>
+        <li>Usando el atributo style en un elemento.</li>
+        <li>Usando la declaración !important después de cualquier valor de propiedad.
+          <ul>
+            <li>Se utiliza para convertir una propiedad y un valor particular en el elemento más específico.</li>
+            <li>La única manera de anular la declaración !important sería incluir otra declaración !important en una
+              declaración con la misma especificidad que aparezca más adelante en el orden del código fuente, o con una
+              especificidad superior.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p id="id" class="clase importante" style="color: red;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero hic a alias iste. Placeat, officiis
+        voluptatibus. Autem officia amet explicabo recusandae minus est reiciendis expedita fugiat, aperiam quas
+        adipisci nihil?
+      </p>
+    </section>
+  </main>
+</body>
+
+</html>

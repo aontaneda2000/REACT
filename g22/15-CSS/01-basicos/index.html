@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Básicos</title>
+  <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/monokai-sublime.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    body {
+      background-color: #111;
+      color: #ccc;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+    a {
+      color: cyan;
+      text-decoration: none;
+    }
+
+    h2 {
+      color: violet;
+      font-weight: normal;
+    }
+
+    /* hola este es un comentario en CSS */
+    /* Estilos dentro de la etiqueta style */
+    .cyan {
+      color: cyan;
+    }
+
+    .orange {
+      color: orange;
+    }
+
+    .greenyellow {
+      color: greenyellow;
+    }
+
+    /* Ubicación */
+    .contenedor p {
+      color: yellowgreen;
+    }
+
+    .contenedor>p {
+      color: cyan;
+    }
+
+    /* Boton con estado */
+    .btn {
+      background-color: crimson;
+      color: white;
+      border: 1px solid #111;
+      padding: 5px 10px;
+    }
+
+    .btn:hover {
+      background-color: yellowgreen;
+      color: #111;
+      font-size: 20px;
+    }
+  </style>
+  <!--hola este es un comentario en HTML-->
+</head>
+
+<body>
+  <header>
+    <h1>CSS Básicos</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Anatomía de una regla CSS</h2>
+      <p>Una regla CSS está compuesta por un selector y un bloque de declaración que contiene una o más declaraciones.
+      </p>
+
+      <pre>
+        <code class="language-css">
+          selector {
+            background-color: dark;
+          }
+        </code>
+      </pre>
+
+      <h3>Partes de una regla</h3>
+      <ul>
+        <li>Selector: Especifica el elemento HTML al que se le aplicará la regla.
+          <ul>
+            <li>Elemento: El elemento o los elementos seleccionados por el selector se denominan sujeto del selector.
+            </li>
+          </ul>
+        </li>
+        <li>Bloque de declaración: Es el conjunto de declaraciones que se encierran entre llaves.</li>
+        <li>Declaración: Es el conjunto de propiedades y valores que se separan por dos puntos.</li>
+        <li>Propiedad: Son identificadores que indican qué características de estilo deseas cambiar.</li>
+        <li>Valor: Indica cómo quieres que cambien esas características de estilo.</li>
+        <li>Punto y coma: Es el separador de declaraciones.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Agregar CSS a un documento HTML</h2>
+      <p>Existen tres formas de agregar CSS a un documento HTML:</p>
+      <ul>
+        <li>En línea</li>
+        <li>Interno</li>
+        <li>Externo</li>
+      </ul>
+
+      <h3>En línea</h3>
+      <p>Se agrega directamente en el elemento HTML que se desea estilizar.</p>
+      <p>Esta forma de agregar CSS es la menos recomendable, ya que no permite reutilizar el código CSS.</p>
+
+      <ul>
+        <li>Este texto es de color <span style="color: orange">orange</span></li>
+        <li>Este texto es de color <span style="color:  greenyellow">greenyellow</span></li>
+        <li>Este texto es de color <span style="color: cyan;">cyan</span></li>
+      </ul>
+
+      <h3>Interno</h3>
+      <p>Se agrega dentro de la etiqueta <code>&lt;style&gt;</code> del documento HTML.</p>
+      <p>Esta forma de agregar CSS es recomendable, ya que permite reutilizar el código CSS.</p>
+
+      <ul>
+        <li>Este texto es de color <span class="orange">orange</span></li>
+        <li>Este texto es de color <span class="greenyellow">greenyellow</span></li>
+        <li>Este texto es de color <span class="cyan">cyan</span></li>
+      </ul>
+
+      <h3>Externo</h3>
+      <p>Se agrega en un archivo CSS externo y se enlaza al documento HTML.</p>
+      <p>Esta forma de agregar CSS es la más recomendable, ya que permite reutilizar el código CSS y mantenerlo
+        organizado.</p>
+    </section>
+
+    <section>
+      <h2>Aplicación de estilos</h2>
+      <p>Este texto es de color <span class="orange">Orange</span></p>
+      <p class="orange greenyellow cyan">Este texto es de color ???</p>
+
+      <h3>Importancia de la especificidad y el orden</h3>
+      <p>La especificidad y el orden son dos conceptos que debes tener en cuenta a la hora de aplicar estilos a un
+        documento HTML.</p>
+    </section>
+
+    <section>
+      <h2>Cambiar el comportamiento predeterminado de los elementos</h2>
+      <p>Los navegadores tienen un comportamiento predeterminado para cada elemento HTML. Por ejemplo, los enlaces
+        tienen un subrayado predeterminado, los botones tienen un estilo predeterminado, etc.</p>
+
+      <h3>Enlaces</h3>
+      <p>Los enlaces tienen un subrayado predeterminado.</p>
+      <p>Para quitar el subrayado de un enlace, se debe agregar la propiedad <code>text-decoration</code> con el
+        valor <code>none</code>.</p>
+
+      <a href="https://www.twitter.com" target="_blank">twitter</a>
+    </section>
+
+    <section>
+      <h2>Formato según la ubicación</h2>
+      <div class="contenedor">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, ad ipsam nihil, dolorem dolores voluptatibus
+          recusandae natus rerum architecto eum vel tempora velit fuga perferendis aut dicta eligendi, dignissimos
+          deleniti.
+        </p>
+
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint earum in nulla cumque tempore alias modi
+            iusto, reiciendis, laboriosam nihil error ipsum optio. Sequi, quos quaerat at praesentium harum repudiandae!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Formato segun el estado</h2>
+      <p>Los botones tienen un estilo predeterminado.</p>
+
+      <button class="btn" type="button">Botón</button>
+
+      <p>
+        Cambiar el color de fondo de un botón al pasar el cursor sobre él usando la pseudo-clase <code>:hover</code>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Comentarios en CSS</h2>
+      <p>Los comentarios en CSS se escriben entre <code>/*</code> y <code>*/</code>.</p>
+
+      <pre>
+        <code class="language-css">
+          /* Este es un comentario */
+        </code>
+      </pre>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+
+</html>

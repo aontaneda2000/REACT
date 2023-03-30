@@ -26,4 +26,38 @@ Bañar perros y ropa
 
 27 marzo
 
-# 6am colas dobles
+# 6am seminario fenix
+
+# 5pm css
+
+# 6pm css
+
+# 7pm js f
+
+28 marzo
+
+# 5pm ingles
+
+# 6pm js
+
+# 7pm js
+
+# 8pm js
+
+# 9pm js
+
+# 10 pm js
+
+29 marz
+
+# 8am tarjetas anki
+
+# 9am tarjetas
+
+# 10 estudiando var let const, ambito de las variables
+
+# 4 desarrollo personal
+
+# 5 ingles
+
+# 6 js dom

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM | Document Object Model</title>
+</head>
+
+<body>
+  <!--esto es un comentario en HTML-->
+  <h1 class="clase1 clase2 clase3">DOM</h1>
+
+  <ul>
+    <li>Elemento de lista</li>
+    <li>Elemento de lista</li>
+    <li>Elemento de lista</li>
+  </ul>
+
+  <section>
+    <p class="parrafo1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor rem officiis iste aut ut
+      distinctio doloribus
+      praesentium, ex assumenda veniam unde amet est autem officia nam debitis perspiciatis ratione quisquam.</p>
+
+    <!-- <script>
+      // Colección viva (live collection)
+      const parra = document.getElementsByTagName('p')
+      console.log(parra.length)
+
+      // Colección estática (static collection)
+      const parra2 = document.querySelectorAll('p')
+      console.log(parra2.length)
+    </script> -->
+
+    <p id="parrafo" class="parrafo2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+      voluptatem. Reiciendis enim
+      qui eius nisi, in vitae vel, illum nulla sint mollitia nesciunt at, libero saepe magni culpa hic dolores!</p>
+  </section>
+
+  <button id="btn" class="boton01">
+    <span>
+      <em>Dame click!!!</em>
+    </span>
+  </button>
+
+  <article>
+    <h2>Lorem</h2>
+    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae totam sint ducimus odio dolorem!
+      Corporis culpa nostrum corrupti vero. Vitae nam reiciendis tenetur, deleniti minus optio facere omnis voluptatum
+      quae.</p>
+
+    <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, repudiandae ipsum. Libero culpa
+      architecto quos perspiciatis omnis dolores, neque adipisci atque maxime tempore inventore minus sit odio aliquam!
+      Unde, omnis.</p>
+
+    <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem a impedit accusamus architecto
+      non, voluptatibus necessitatibus ullam ratione at illo eius porro assumenda cumque, eligendi sapiente
+      exercitationem. Excepturi, sint. Saepe?</p>
+
+    <!-- <script>
+      // Refleja el estado actual del DOM y se actualiza en tiempo real
+      console.log(parra.length)
+
+      // La colección estática no aumentó después de la aparición de un nuevo elemento en el documento.
+      console.log(parra2.length)
+    </script> -->
+  </article>
+
+  <form name="form">
+    <p>
+      <label for="name">Nombre:</label> <br>
+      <input type="text" name="name" id="name">
+    </p>
+
+    <p>
+      <input type="checkbox" name="checkbox" id="checkbox" checked>
+      <label for="checkbox">Verificado</label> <br>
+    </p>
+  </form>
+
+  <br>
+
+  <main>
+    <div>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ratione cupiditate distinctio autem
+        accusantium? Illo modi, <span class="pintameee">magnam nihil inventore</span>, cupiditate, repudiandae
+        perspiciatis maxime dolorem adipisci
+        accusantium veritatis quo nostrum fugiat?</span>
+    </div>
+  </main>
+
+  <br>
+
+  <div class="container">
+    <div class="msg--lt"></div>
+    <div class="msg--rt"></div>
+  </div>
+
+  <br>
+
+  <style>
+    .alert {
+      padding: 15px;
+      border: 1px solid #d6e9c6;
+      border-radius: 4px;
+      color: #3c763d;
+      background-color: #dff0d8;
+    }
+  </style>
+
+  <div class="alert-container"></div>
+
+  <br>
+
+  <ol id="ol">
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+  </ol>
+
+  <hr>
+
+  <div id="root" class="app"></div>
+
+  <br>
+
+  <aside>
+    <div id="standard" custom="no-standard">
+      <span data-id="1">lorem</span>
+    </div>
+  </aside>
+
+  <div class="container">
+    <p class="parrafo1 text-primary font-size-xl">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis perspiciatis excepturi placeat optio
+      similique nam suscipit, dolorum commodi numquam rem? Voluptatum ea tempore possimus quod nihil! Molestiae, illo
+      amet?
+    </p>
+  </div>
+
+  <br>
+
+  <footer class="footer">
+    <span>&copy; 2023</span>
+    <h3>Footer</h3>
+  </footer>
+
+  <!-- <script src="01_entorno_navegador.js"></script> -->
+  <!-- <script src="02_recorriendo_el_dom.js"></script> -->
+  <!-- <script src="03_metodos_de_busqueda.js"></script> -->
+  <!-- <script src="04_propiedades_del_nodo.js"></script> -->
+  <!-- <script src="05_modificando_el_dom.js"></script> -->
+  <!-- <script src="06_atributos_propiedades.js"></script> -->
+  <!-- <script src="07_estilos_y_clases.js"></script> -->
+</body>
+
+</html>

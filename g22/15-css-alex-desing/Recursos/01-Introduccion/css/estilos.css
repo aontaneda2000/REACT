@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+}
+
+/* ============ 01 INTRODUCCION que es css y su sintaxis============ */
+
+/* ============Como agregar css? ============*/
+/* 
+
+1 Etiqueta <style> 
+2. Agregando un nuevo archivo en el head con etiqueta <link> que contiene rel y href
+
+investigar: cascada
+
+*/
+
+/* ============Como hacer comentarios?============ */
+
+/*Sirven para documentar mi codigo  */
+
+/* 02 SELECTORES */
+
+/* ============que es descendencia============ */

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--===== CSS =====-->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Contact FORM</title>
+
+  <!--===== JS =====-->
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <section class="contact grid--container">
+    <h1 class="contact__title">🔥 Trabajemos Juntos!</h1>
+    <form class="contact__form grid--container">
+
+      <select class="contact__form--input" id="service">
+        <option selected disabled>-- Selecciona un servicio --</option>
+        <option value="ui/ux">Diseño UI/UX</option>
+        <option value="frontend">Frontend</option>
+        <option value="backend">Backend</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <div class="contact__form--group form--group-double">
+        <input class="contact__form--input" type="text" id="name" placeholder="Nombre" required>
+        <input class="contact__form--input" type="text" id="lastname" placeholder="Apellido" required>
+      </div>
+
+      <div class="contact__form--group form--group-double">
+        <input class="contact__form--input" type="email" id="email" placeholder="Correo electrónico" required>
+        <input class="contact__form--input" type="tel" id="tel" placeholder="Teléfono">
+      </div>
+
+      <textarea class="contact__form--input" id="message" placeholder="Cuentanos esa idea genial que tienes en mente!"></textarea>
+
+      <div class="contact__form--group">
+        <input class="contact__form--input" type="checkbox" id="terms">
+        <label class="contact__form--label" for="terms">He leído y estoy de acuerdo con <a href="#">los términos y condiciones</a>.</label>
+      </div>
+
+      <div class="contact__form--group contact__buttons">
+        <div class="contact__text required--msg">Campos obligatorios</div>
+        <button class="contact__button btn--submit" type="submit" disabled>Enviar</button>
+      </div>
+
+    </form>
+  </section>
+</body>
+
+</html>

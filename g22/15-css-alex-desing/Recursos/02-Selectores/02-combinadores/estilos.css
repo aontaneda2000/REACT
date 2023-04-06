@@ -1,0 +1,33 @@
+/* Seleccionar mas de un elemento a la vez con la coma para establecer la misma propiedad  */
+h2,
+h3 {
+  font-size: 25px;
+  font-family: "Arial";
+}
+
+/* Selecciona cualquier elemento descendiente del primer elemento */
+.contenedor a {
+  text-decoration: none;
+  color: firebrick;
+}
+
+/* Selecciona hijo o elemento directo del primer elemento */
+.contenedor > a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Seleccion un elemento nav que tiene la clase contenedor */
+nav.contenedor {
+  color: red;
+}
+
+/*Selector adyacente:  Seleccionar al elemento hermano siguiente para establecer una propiedad*/
+h2 + p {
+  color: gold;
+}
+
+/* Selecciona a todos los elementos p que esten despues del h3 */
+h3 ~ p {
+  color: indigo;
+}

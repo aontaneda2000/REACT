@@ -13,6 +13,7 @@ h2 {
 .borde {
   border: 1px solid black;
 }
+
 /* Identificador */
 #section {
   border: 1px solid black;
@@ -36,19 +37,26 @@ h2 {
   text-decoration: none;
 }
 
+a[href] {
+  text-decoration: none;
+}
+
 [href="https://alexcgdesign.com/inicio"]
 {
   color: darkred;
 }
 
+/* Selecciona Atributos que comiencen con el siguiente simbolo  */
 [href^="hsttps"] {
   color: darkolivegreen;
 }
+/* Selecciona Atributos que terminen con el siguiente simbolo  */
 
 [href$="org"] {
   background: steelblue;
   color: white;
 }
+/* Selecciona Atributos que contenga la palabra  con el siguiente simbolo  */
 
 [href*="alexcgdesign"] {
   background: darksalmon;

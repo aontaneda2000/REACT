@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* que es el modelo de caja o box model? =============
+
+Es una manera de entender a los elementos html
+
+
+padding: relleno
+contenido:
+border
+margin
+*/
+
+/* Si un elemento no tiene contenido no va a existir y no va a mostrar nada en el navegador */
+
+/* heigth y width no aplica a los elementos en linea */
+
+.box {
+  width: 300px;
+  height: 150px;
+}
+
+/*margin es un shorthand, porque?===========
+
+contien 4 propiedades en orden a las manecillas del reloj top, rigth  bottom, left, 
+
+
+============>
+*/
+.box1 {
+  background: steelblue;
+  border: 1px solid black;
+  /* 1 
+    margin-top: 50px;
+    margin-bottom:30px;
+    margin-right: 25px; 
+    margin-left: 30px;
+    */
+
+  /* 2 margin=>  1 top 2 right  3 bottom  4 left; */
+  /* margin: 50px 30px 25px 30px; */
+
+  /* 3 margin=> 1 top bottom  2 rigth left */
+  /* margin: 24px 14px; */
+
+  /* 4 margin =>  */
+  /* margin: 30px 80px 5px ? 'se asigna el de rigth' */
+
+  /* 5 margin: centrar elemento  */
+  /* margin: 0 auto */
+}
+
+/* CENTRAR ELEMENTOS CON MARGIN
+1. margin: auto; centra el elemento horizontalmente
+
+
+2. en flexbox margin auto da problemas
+se recomienda:
+margin-rigth: auto
+margin-left: auto
+
+3. margin: 0 auto 0 auto
+
+4. margin: 0 auto;
+
+se usa en contenedores
+
+========que es el colapso de margenes?==================
+
+Es cuando chocan los margenes de forma adyacente
+
+1.Se fusionan y prevalece el margin con mayor valor
+
+2. Es cuando un elemento padre tiene un elemento hijo y al mismo se le quiere dar un margen no se podra realizar esto porque se propone colocar al elemento padre 1px padding o 1px margin
+
+
+=============padding=========
+
+Es el relleno de las cajas y tambien es un shorthand que contiene 4 propiedades 
+
+top
+rigth
+bottom
+left
+
+Cuando la caja es definida pequeña y se agrega estas propiedades la caja va a aumentar sus dimensiones
+
+para solucionar esto se utiliza box-sizing: border-box; para que no pierda sus dimensiones pero el contenido se va a desbordar de la caja
+
+para solucionar esto se utiliza una propiedad overflow: hidden;
+
+
+Recomendable utilizar el selector universal para resetear los estilos del user agent
+
+margin: 0
+padding: 0
+box-sixing: border-box
+
+o tambien se utiliza normalize
+
+
+
+==============border=========
+
+Es un shorthand que contiene 3 valores
+
+tamaño
+distintos tipos de borde: solido, dotted
+color 
+
+hay 150 colores en htmlcolorcodes.com
+
+
+ */
+
+.box2 {
+  padding: 20px;
+  background: REBECCAPURPLE;
+  /* color: white; */
+  margin-top: 30px;
+  margin-left: 20px;
+  overflow: hidden;
+  border: 2px solid steelblue;
+}

@@ -9,6 +9,7 @@ h1 {
 
 1 Etiqueta <style> 
 2. Agregando un nuevo archivo en el head con etiqueta <link> que contiene rel y href
+3. Estilo en linea en el atributo html
 
 investigar: cascada
 
@@ -17,7 +18,3 @@ investigar: cascada
 /* ============Como hacer comentarios?============ */
 
 /*Sirven para documentar mi codigo  */
-
-/* 02 SELECTORES */
-
-/* ============que es descendencia============ */

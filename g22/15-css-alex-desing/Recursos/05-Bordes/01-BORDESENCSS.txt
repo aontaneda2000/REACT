@@ -1,0 +1,39 @@
+
+
+border: width (ancho del borde) style (estilo del borde) color (del borde)
+
+
+tipos de estilo del borde: dashed, dotted
+
+es un shorthand que tiene:
+- border-width:
+- border-style:
+- border-color:
+
+como desmenuzar? 
+tambien contiene bottom, top, rigth left
+
+- border-width: top rigth bottom left
+- border-style: top rigth bottom left
+- border-color: top rigth bottom left
+
+Estilos distintos para los cuatro lados del borde del elemento.
+
+propiedades mas especificas para aplicar estilos un borde especifico del elemento:
+
+border-top: 10px solid red
+border-rigth10px solid red
+border-bottom: 10px solid red
+border-left: 10px solid red
+
+
+modificar el estilo del borde solamente  de arriba del elemento:
+
+'El border-top puede ser rigth, left, bottom'
+
+border-top-width: 20px
+border-top-style: double
+border-top-color: red
+
+
+En ciertos casos vas a querer ser especifico en dar estilos unicamente a un borde de la parte de arriba del elemento.

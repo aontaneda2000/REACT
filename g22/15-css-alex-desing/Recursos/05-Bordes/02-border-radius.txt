@@ -1,0 +1,43 @@
+Como redondear los bordes o las esquinas de un elemento en css
+
+
+unsplash: contiene imagenes sin derechos
+
+
+como quitar el espacio de un elemento que es una imagen?
+poner el elemento html img en una sola linea
+
+
+recordatorio para centrar un elemento:
+el elemento tiene tiene un width y tiene que ser de bloque 
+
+
+
+object-fit: cover; // arregla la imagen que no se dimensione
+
+
+que permite redondear una esquina?
+la propiedad border-radius
+
+Atajo con:
+border-radius: esq-s-izq, esq-s-der, esq-i-der, esq-i-izq
+
+
+Desmenuzando border-radius es un shorthand de:
+
+border-top-left-radius: 20px
+border-top-right-radius: 20px
+border-bottom-rigth-radius: 20px
+border-bottom-left-radius: 20px
+
+border-radius: 50px (b-s-izq y b-i-der) 5px (b-s-der, b-id-izq)
+
+
+pagina para hacer mejorer border radius:
+border-radius.com
+
+
+
+
+
+ 

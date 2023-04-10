@@ -1,3 +1,5 @@
+# 1h 2 h practica
+
 # Estudiar tarjetas y practicar fundamentos y logica JS
 
 # Clase de algoritmos academlo

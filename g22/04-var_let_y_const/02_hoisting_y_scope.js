@@ -32,7 +32,7 @@ fn();
 
 // let y
 
-/* *====================***** */
+/* *====================*****===================== */
 // => Ámbito Global (global-scope) es accesible desde cualquier parte del código. También están disponibles durante toda la vida útil que ejecuta nuestro programa.
 
 var a = 1;

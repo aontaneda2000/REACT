@@ -1,0 +1,75 @@
+//SOLUCION DE PROBLEMAS EN CSS Tipos de elementos en css
+
+Como saber cual es elemento en linea?
+Solamente ocupan su contenido
+
+Elemento bloque?
+Ocupan 100% del body
+
+Afecta al modelo de caja
+recomendable de linea a bloque
+
+
+porque vamos a querer que sean bloque?
+porque hay problema de mb y mt
+
+
+width y heigth no funcionan si es en linea
+
+
+utilizar inline-block para que no hay problemas y poder utilizar m y pd
+
+
+no puedes centar un elemento con margin si no tiene un width definido
+
+
+display none: saca del flujo del navegador
+
+
+opacity: se desvanece pero sigue el elemento en el flujo
+
+
+
+
+//CASCADA: El codigo de abajo va a sobrescribir al codigo de arriba si es el mismo selector y propiedad y no sobrescribe a menos de la especificidad
+
+
+//ESPECIFICIDAD
+La especificidad ayuda a selector a que elemento se va a modificar porque es mas especifico
+
+especificidad depende de los selectores
+
+la cascada no interviene si el selector que queremos modificar tiene mayor especificidad
+
+En css usa numeros del 1 al 1000
+- 1000: inline -> atributo style html
+- 100: id -> 
+- 10 - clases y atributos []
+- 1 elemento -> etiquetas, before y after
+- !important: no importa cual es la especificidad en la linea de la propiedad
+
+pagina recomendado para medir especificidad
+specifity.keegan.st
+
+
+
+//HERENCIA
+COMO obligar al elemento a heredar cierta cosas?
+
+con la propiedad inherit
+
+
+los elementos hijos no heredan el borde,
+padding
+
+los elementos hijos heredan el tamaño de la letra, color etc..
+
+Como obligar a un elemento que regrese a su estado inicial cuando se centra a los elemento desde de el padre?
+propiedad inherit
+
+
+
+Nota: Usar clase 
+inline mala practica
+//rompe la especificidad es !important
+Siempre observar el codigo de css y ver la especificidad, metodologia bem ayuda a controlar la especificidad

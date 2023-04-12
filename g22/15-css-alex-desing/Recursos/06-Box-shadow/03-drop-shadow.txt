@@ -1,0 +1,50 @@
+// drop shadow video 33 
+
+
+como saber cuando trabajamos imagenes que no tiene fondo?
+
+dar fondo al body 
+
+
+drop-shadow(des-horiz des-verticual blur color)
+
+
+como utilizo ?
+propiedad filter -> valor drop-shadow(10px 10px 10px gold)
+
+dar fondos a una imagen
+
+
+
+
+pagina que remueve el fondo de cualquier imagen
+	- remove.bg 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

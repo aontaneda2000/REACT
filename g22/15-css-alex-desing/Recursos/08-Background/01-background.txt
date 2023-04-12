@@ -1,0 +1,36 @@
+
+descargar iconos sin derechos de autor:
+	boxicons.com
+
+que es background?
+Es un shorthand que contiene varios valores
+
+
+define color al elemento
+background-color: red, transparent
+
+
+define una imagen con en un elemento:
+background-image: url('../img')
+
+
+como agregar dos imagenes en un elemento?
+background-image: url('../img'), url('../img') 
+
+
+cuando la nube es pequeña se repite en un elemento, como hacer que no se repite?
+
+define que no se repite el fondo con:
+background-repeat: no-repeat; // por defecto repeat
+
+
+define en el eje de x o horizontal o y vertical
+background-repeat: repeat-y o repeat-x
+
+
+dentro de bacground esta todos los valores:
+
+
+tecnica en diseño web de patrones
+// => pagina toptal.com
+

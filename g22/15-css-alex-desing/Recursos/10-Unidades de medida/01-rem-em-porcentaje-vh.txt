@@ -1,0 +1,96 @@
+
+
+Unidad de medida Pixeles siempre van a ser fijos pero podrian cambiar con las medias querys
+
+=> cm: tambien son fijos
+
+
+Que es la accesibilidad?
+
+que son las Unidades relativas?
+Que no van ser fijas
+
+
+=> rem
+Depende del root del elemento html
+Es relativa al tamaño de la raiz 
+
+el navegador tiene por defecto 16px
+
+los rems se convierte a pixeles
+
+el navegador convierte los rem a pixeles
+
+html{
+		
+}
+
+ .text{
+}
+
+
+=====CLASE COMPRENDIDA==========
+
+=================================
+=> em tambien se renderiza en el navegador como pixeles
+
+Representa el tamaño fuente del elemento padre
+
+body{
+
+}
+
+opinion{
+
+}
+
+
+=========================
+
+como limitar el tamaño de un elemento en css
+
+=> como defino tamaño maximo ancho de un elemento?
+max-width:
+
+=> como defino tamaño maximo alto de un elemento?
+max-heigth:
+
+
+Nota: En la vida real no vas a agregar ni heigth ni width
+
+
+Delimitar el tamaño del ancho minimo?
+min-width: 200px
+
+Delimitar el tamaño del alto minimo?
+min-heigth
+
+
+
+==============porcentajes
+como calcular el tamaño automaticamente?
+con porcentaje.
+width: 90%;
+
+Los porcentajes son relativos al padre
+
+
+
+===============Unidades viewport====
+
+Es lo que podemos visualizar en pantalla
+todo lo ancho y lo alto es el viewport
+
+
+=> viewport width  => vw
+=> viewport heigth  => vh
+
+Son relativas porque dependen del tamaño del viewport
+
+
+A diferencias del porcentaje no dependen de un elemento padre si no del viewport
+
+width: 10vw
+hiegth : 100vh	
+
+Esta es una de las maneras de Ocupar el 100% de la pantalla

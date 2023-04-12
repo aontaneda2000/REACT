@@ -1,0 +1,27 @@
+
+//BACKGROUND POSITION =========
+
+En el diseño web maneja planos 
+
+Imagen de flujo de las ejes de la x o y en css:
+
+Se posiciona x hacia la derecha y y hacia la izquierda -> 
+background-position: x y;
+
+background-position: 30px 100px
+
+
+tambien utiliza palabras reservadas como top bottom left rigth
+
+Se puede utilizar una de estas dos o una de estas dos
+background-position: top bottom left rigth
+
+background-position: top rigth
+background-position: bottom rigth
+background-position: bottom center
+
+//tambien se puede:
+background-position: top 20px right
+
+//imagen centrada verticalmente y horiz
+background-position: center;

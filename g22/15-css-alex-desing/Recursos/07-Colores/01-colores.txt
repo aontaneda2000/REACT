@@ -1,0 +1,92 @@
+COLORES:
+
+para que sirve los colores?
+le da color a los textos en css
+
+
+?
+Cuando se da un color a un contenedor y ese contenedor tiene un parrafo pues este parrafo va a heredar el color del contenedor
+
+
+Los elementos ocupan el ancho de su contenedor padre en tal caso no tiene ocupan del body
+
+
+
+=====RGB(red, green, blue)
+
+Se puede combinar cualquier posible en css
+El valor minimo es 0 y el maximo es 255
+
+
+Todos los valores en 0 es el color negro
+
+
+Color rojo:
+	rgb(255, 0, 0)
+
+Color verde
+	rgb(0, 255, 0)
+
+Color azul:
+	rgb(0,0,255)
+
+
+
+La funcion rgb tiene otro valor que es opcional que es el valor alpha y sirve para dar opacidad o transparencia 
+
+	y va desde el 0 hasta el 1
+
+background: rgba(10, 10 , 10 , 0.5)
+
+
+=======  video 35 color hexadecimal ===
+
+como utilizar los colores hexadecimales?
+
+colocar una almohadilla y representa los mismos colores que rgb
+
+ red verde blue
+#ff ff ff
+
+
+TABLA DECIMAL 
+
+DE 0 A 15 
+
+
+TABLA HEXADECIMAL
+DEL 0 HASTA 9 Y REMPLAZAMOS EL 10 POR EL ORDEN DEL ABECEDARIO
+
+
+Alexdes toma de una paleta de colores para la pagina
+
+
+
+============ funcion hsl
+
+VER IMAGEN:
+SATURACION: se puede ver desde el circulo cromatico
+
+saturacion va desde el 0 al 100
+
+
+
+
+hsl(hue (matiz- color 0 - 360) saturation (define intensidad va desde el 0 al 100% ) ligthness (brillo o color se utiliza porcentaje desde el 0 - 1) )
+
+
+hsl(0, 100% , 100% )
+
+
+
+pagina para paleta de colores: 
+1- flatuicolors.com
+2- coolors.co -> subir una foto para crear una paleta de colores
+3. htmlcolorcodes.com -> permite utilizar tecnicas de diseño en analogo
+apartir del color que yo escoji
+4- colourco.de -> permite combinar para crear paleta de colores 
+
+Sirve para no matarse la cabeza en pensar en paleta de colores
+
+
+

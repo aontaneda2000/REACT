@@ -1,0 +1,19 @@
+//=======BOX-SHADOW MINI PRACTICA=====
+
+ARCHIVOS PRACTICA.HTML Y CSS
+
+Generador de sombras:
+cssmatic.com/box-shadow
+
+Son prefijos que se utilizan para optimizar para ciertos navegadores 
+webkit representa a safair a crhoma
+
+
+como decirle a una imagen que ocupe su contenedor?
+width: 100%;
+
+object-fit: da resolucion ala imagen
+
+
+
+canva.com/colors/color-palette-generattor/

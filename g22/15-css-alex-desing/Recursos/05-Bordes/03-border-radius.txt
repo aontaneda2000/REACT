@@ -1,0 +1,19 @@
+como hacer un circulo a una imagen o una caja?
+
+border-radius: 50%;
+
+nota: Si no se define el heigth por defecto es auto
+
+Un circulo perfecto el ancho y alto de la caja deben ser iguales
+
+
+solucion de colapso de margenes es darle al borde 1px
+
+text-align: center // centra el elemento
+font-family: Arial // tipo de letra
+
+
+como centrar un elemento en linea?
+1. tiene que ser de bloque: 
+2. tiene que tener un ancho
+

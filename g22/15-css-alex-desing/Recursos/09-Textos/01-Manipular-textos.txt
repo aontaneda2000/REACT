@@ -1,0 +1,140 @@
+======TEXTOS =====
+
+
+como manipular textos en css?
+
+
+=> como alinear un texto?
+text-align: left, center, rigth . justify,  //valor por defecto
+
+
+problema de elementos en linea que no se alinean: colocar los elementos en bloque
+
+
+como definir el espacio entre letras?
+letter-spacing: 20px; // puede ser positivo o negativo
+
+
+como definir el espaciado entre cada palabra?
+word-spacing: 30px; // puede ser valores negativos o positivos
+
+como definir la sombra de un texto?
+text-shadow: d-x d-y blur o color
+	       10px 10px
+		
+
+
+===  MANIPULAR TEXTOS
+
+=> como transformar el texto a mayusculas?
+
+text-transform: uppercase;
+
+	lowercase => convierte a 		minisculas
+	capitalize => al principio  de cada palabra en mayuscula
+
+
+=> como definir la altura del texto?
+
+line-heigth: 30px;
+
+
+=> como centrar el elemento?
+
+Tiene que tener el heigth del contenedor y line-heigth: Nota utilizar esto cuando tenga una sola linea
+
+
+=> como 
+
+Se divide en 3
+text-decoration: line style color;
+
+underline
+overline
+line-through
+none
+
+
+como definir el estilo subyrado de la linea?
+text-decoration-style: wavy, 
+text-decoration-color: red;
+
+
+
+
+
+============= font family ========
+
+
+Es un shorthand con distintas propiedades 
+
+font-variant: normal // 
+	      small-caps
+
+
+
+=> como colocar el peso de la fuente:
+font-weigth: bold o numeros como 600; //texto en negrita
+
+
+=> como aumentar el tamaño de la fuente?
+font-size: 16px
+
+
+=> como dar estilo a la letra?
+font-style: oblique, italic; 
+
+
+=> Es propiedad heredable 
+font-family: cursive
+
+
+Si no existe esa propiedad se puede colocar otra:
+
+font-family: cursive, arial, Cursive
+
+
+Utilizar esta propiedad en el body porque lo va heredar
+
+
+=> como agregar fuentes que no estan en tu computadora?
+
+Con google fonts
+
+Custom se puede escribir el tipo de fuente
+
+
+Raleway
+
+Como combinar la fuente?
+Pairings
+
+
+como agregar google fonts?
+
+Primera forma link
+1. colocar etiqueta link en el head
+2. Colocar la propiedad
+
+Segunda forma import
+1. colocar en parte superior del archivo css
+
+
+Como utilizar font-family?
+
+Colocarle al body  los estilos para que herede
+font-family: 'Raleway'
+
+Seleccionar al texto y agregarle el tamaño de la fuente con numeros o bold
+font-weigth: 600
+
+
+
+
+==========practica fuentes ========
+
+
+
+
+
+

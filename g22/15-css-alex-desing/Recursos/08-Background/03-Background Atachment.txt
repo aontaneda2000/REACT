@@ -1,0 +1,38 @@
+
+
+========background-size: x y;
+
+Define el tamaño dela img con un alto y un ancho:
+
+background-size: 200px 100px
+
+
+=> contain: escala la imagen a su maximo tamaño 
+
+=> cover: ocupa todo el elemento y sin estirarla pero cover la recorta.
+
+
+//==== atachment
+
+Como añadir fondo a un elemento?
+background-image: url()
+background-repeat: no-repeat
+
+background-size: cover
+
+
+
+Segunda clase del elemento:
+
+background-attachment: fixed;
+
+//que hace fixed?
+El fondo del elemento se queda fijo y va a tener todo el alto y ancho del navegador
+
+
+//Efecto parallax con la propiedad fixed:
+
+
+//que es el efecto hero? 
+Poner una imagen que tenga el fondo 100% del ancho del navegador en la primera seccion de la pagina
+

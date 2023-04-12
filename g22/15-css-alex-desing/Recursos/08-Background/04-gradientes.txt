@@ -1,0 +1,55 @@
+
+
+
+======TEMA: gradientes========
+
+que son las gradientes?
+Sirve para dar degradados a elementos con la propiedad:
+
+background-image: linear-gradient(red, pink)
+
+- El elemento tendra el color De rojo a rosado
+
+
+La sintaxis completa de background-image: linear-gradient(direction (arriba y abajo), color stop , color stop)
+
+
+Combinaciones de los valores de la funcion linear 	:
+
+=> direction:
+
+(to rigth , red , pink)
+
+(to bottom left , red , black)
+
+( 90deg, red , black)
+
+valor por defecto (to bottom)
+
+
+=> stop: define el porcentaje de transicion hasta cuando acabe ese degradado
+
+(red 30%, blue 50%)
+
+
+
+
+
+=> ====CREANDO UNA HERO IMAGE GRADIENTES  #2
+
+Como añadir un degradado transparente a una hero image?
+=> background-image:
+	linear-gradient(#00008b7e, #4683b481), url(img/hero.jpg);
+
+---
+
+Paginas para añadir gradientes a tu hero image:
+1. cssgradient.io
+2. webgradients.com
+3. uigradients.com => 
+
+
+
+
+
+

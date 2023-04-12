@@ -1,0 +1,54 @@
+//================carpeta 6 - video 30 en bordes- BOX SHADOW =========
+
+
+que es la propiedad
+añade sombra a un elemento y estas sombras son usadas en el diseño web moderno
+
+Se compone de 5 elementos:
+box-shadow: h-offset (d-h) v-offset(v-v) blur(tanto se va a difuminar la sombra) spread (que tanto se va a expander la sombra) color (de la sombra)
+
+
+funciona con dos valores:
+
+desplazamiento horizontal izq-der
+depslzamiento vertical -> arriba hacia abajo
+
+- desplaza la sombra verticalmente y horizontalmente
+
+currentColor es el color por defecto negro que tiene el contenedor si no se coloca ese color en la propiedad box.shadow
+
+
+La sombra es exactamente del tamaño del elemento
+
+El blur va a difuminar el elemento
+box-shadow: 100px 100px "55px";
+
+El spread hace que se expanda el elemento:
+box-shadow: 100px 100px 55px "20px";
+
+Esta propiedad tambien permite agregar otra sombra
+
+box-shadow: 100px 100px 55px 20px,
+	    "100px 0 blue ,
+	   0 100px darkblue";
+
+
+las sombras tambien sirven para resaltar un elemento.
+
+como dar sombra una imagen?
+
+que se consigue con rgba? se consigue transparencia
+	valor a: significa alfa
+
+
+En vscode se puede elegir un color y aparece el codigo hsl, rgba y la transparencia.
+
+
+no hay que acordarse de los colores porque se ve en la paleta de colores solo hay que entender para que funciona rgba
+
+
+alex usa bastante:
+
+
+
+

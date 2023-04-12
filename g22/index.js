@@ -4,7 +4,7 @@
 countWords("Hola Aca"); 
 
 */
-
+/* 
 const user = [
   {
     nombre: "AARON",
@@ -18,7 +18,4 @@ const user = [
     active: false,
   },
 ];
-
-user[0].age > 18
-  ? console.log("Tiene permiso de entrar")
-  : console.log("No tiene");
+ */
